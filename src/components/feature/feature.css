@@ -1,0 +1,32 @@
+.gradient-bar {
+  width: 38px;
+  height: 3px;
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+    #ffffff;
+}
+.gpt3-feature-content {
+  display: flex;
+}
+.gpt3-feature-content h2 {
+  flex: 0.7;
+  font-size: 24px;
+  line-height: 75px;
+  color: #ffffff;
+}
+.gpt3-feature-content p {
+  flex: 1.5;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-text);
+}
+
+@media screen and (max-width: 1050px) {
+  .gpt3-feature-content h2 {
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .gpt3-feature-content {
+    display: block;
+  }
+}
