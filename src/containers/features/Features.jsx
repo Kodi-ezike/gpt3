@@ -4,20 +4,21 @@ import "./features.css";
 
 const featuresData = [
   {
-    title:'Improving end distrusts instantly ',
-    text:'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'
+    title:'Human-like Text',
+    text:"Create text that seems human with ChatGPT, users interacting with the AI won't be able to tell if a human or AI is doing it."
+    
   },
   {
-    title:'Improving end distrusts instantly ',
-    text:'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'
+    title:'Interactive Responses',
+    text:'It can produce responses in real time because it uses the Human Feedback model and Reinforcement Learning.'
   },
   {
-    title:'Improving end distrusts instantly ',
-    text:'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'
+    title:'Translation of Texts',
+    text:'ChatGPT can be used to translate text between languages thanks to the rapidly advancing technology.'
   },
   {
-    title:'Improving end distrusts instantly ',
-    text:'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'
+    title:'Personalized Content',
+    text:'It can offer precise and personalized responses to a user, increasing user engagement and conversion rates for organizations.'
   },
 ]
 
