@@ -11,10 +11,10 @@ const Header = () => {
             Let's Build Something amazing with GPT3 OpenAI
           </h1>
           <p>
-            Yet bed any for travelling assistance indulgence unpleasing. Not
-            thoughts all exercise blessing. Indulgence way everything joy
-            alteration boisterous the attachment. Party we years to order allow
-            asked of.
+            The next generation of apps are powered by GPT-3. Through our API,
+            more than 300 applications are providing advanced AI services like
+            search, conversation, text completion, and more that are powered by
+            GPT-3.
           </p>
         </div>
         <div className="gpt3_header-content-input">
