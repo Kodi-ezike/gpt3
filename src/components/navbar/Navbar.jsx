@@ -5,10 +5,7 @@ import logo from "../../assets/logo.svg";
 const Menu = () => (
   <>
     <p>
-      <a href="#home">Home</a>
-    </p>
-    <p>
-      <a href="#wgpt3">What is GPT</a>
+      <a href="#whatgpt3">What is GPT-3</a>
     </p>
     <p>
       <a href="#possibility">Open AI</a>
@@ -19,13 +16,16 @@ const Menu = () => (
     <p>
       <a href="#blog">Library</a>
     </p>
+    <p>
+      <a href="#contact">Contact</a>
+    </p>
   </>
 );
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="gpt3_navbar">
+    <div className="gpt3_navbar" id="home">
       <div className="gpt3_navbar-links">
         <div className="gpt3_navbar-links_logo">
           <img src={logo} alt="logo" />
