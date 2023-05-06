@@ -1,30 +1,28 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/react-in-jsx-scope */
+import React from "react";
 import "./App.css";
-import { Article, Brand, CTA, Feature, Navbar } from "./components";
-import {
-  Blog,
-  Features,
-  Footer,
-  Header,
-  Possibility,
-  WhatGPT3,
-} from "./containers";
+import { ScrollManager } from "./components";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./containers/home/Home";
+import BlogPage from "./containers/blog/BlogPage";
 
 const App = () => {
   return (
     <div className="App">
-      <div className="gradient_bg">
-        <Navbar />
-        <Header />
-      </div>
-      <Brand />
-      <WhatGPT3 />
-      <Features />
-      <Possibility />
-      <CTA />
-      <Blog />
-      <Footer />
+      <Router>
+        <ScrollManager>
+          <Routes>
+            <Route path="/" element={<Home />} />
+
+            {/* <Route path="/#whatgpt3" element={<WhatGPT3 />} />
+            <Route path="/#possibility" element={<Possibility />} />
+            <Route path="/#features" element={<Features />} />
+            <Route path="/#blog" element={<Blog />} />
+            <Route path="/#contact" element={<Footer />} /> */}
+
+            <Route path="/BlogPage" element={<BlogPage />} />
+          </Routes>
+        </ScrollManager>
+      </Router>
     </div>
   );
 };

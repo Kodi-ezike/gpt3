@@ -1,0 +1,40 @@
+.blog-page-header {
+  font-size: 40px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  color: white;
+  font-style: italic;
+}
+.blog-page-image{
+    width: 100%;
+    height: 300px;
+    margin: 50px 0;
+}
+h3, h4{
+  margin: 20px 0;
+}
+p{
+  margin: 10px 0;
+}
+.blog-page-text{
+    font-size: 18px;
+    color: white;
+    line-height: 26px;
+}
+.blog-page-author,.blog-page-date{
+        font-size: 14px;
+        color: white;
+}
+.blog-page-author{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 990px) {
+    .blog-page-header {
+      width: 100%;
+      font-size: 28px;
+    }
+  }

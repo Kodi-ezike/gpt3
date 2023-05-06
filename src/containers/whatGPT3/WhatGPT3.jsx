@@ -8,8 +8,7 @@ const WhatGPT3 = () => {
       <div className="gpt3_whatgpt3-feature">
         <Feature
           title="What is GPT-3"
-          text="Generative Transformer 3 (GPT-3) is a pre-trained autoregressive language model that was published in 2020 and employs deep learning to generate text that resembles human speech. It will produce text that answers questions when provided a cue. It can be challenging to tell whether or not a human was the author of the content produced by GPT-3 because of its exceptionally excellent writing quality.
-          ."
+          text="Generative Transformer 3 (GPT-3) is a pre-trained autoregressive language model that was published in 2020 and employs deep learning to generate text that resembles human speech. It will produce text that answers questions when provided a cue. It can be challenging to tell whether or not a human was the author of the content produced by GPT-3 because of its exceptionally excellent writing quality."
         />
       </div>
       <div className="gpt3_whatgpt3-heading">

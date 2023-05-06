@@ -2,22 +2,23 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/logo.svg";
+
 const Menu = () => (
   <>
     <p>
-      <a href="#whatgpt3">What is GPT-3</a>
+      <a href="/#whatgpt3">What is GPT-3</a>
     </p>
     <p>
-      <a href="#possibility">Open AI</a>
+      <a href="/#features">Case Studies</a>
     </p>
     <p>
-      <a href="#features">Case Studies</a>
+      <a href="/#possibility">Open AI</a>
     </p>
     <p>
-      <a href="#blog">Library</a>
+      <a href="/#blog">Library</a>
     </p>
     <p>
-      <a href="#contact">Contact</a>
+      <a href="/#contact">Contact</a>
     </p>
   </>
 );
